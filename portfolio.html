@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайту-->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="Студія">Студія</a></li>
-          <li><a href="Портфоліо">Портфоліо</a></li>
-          <li><a href="Контакти">Контакти</a></li>
+        <a href="" class="logo">
+          <span class="logo-first">Web</span><span class="logo-second">Studio</span>
+        </a>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="Портфоліо" class="link current">Портфоліо</a></li>
+          <li><a href="Контакти" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <a href="″info@devstudio.com″">info@devstudio.com</a>
-      <a href="″+380961111111″">+38 096 111 11 11</a>
+      <ul class="auth-nav list">
+        <li><a href="info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li><a href="+380961111111" class="link">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
       <section>
         <h2>Портфоліо</h2>
-        <nav>
-          <ul>
-            <li><button>Усі</button></li>
-            <li><button>Веб-сайти</button></li>
-            <li><button>Додатки</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
-          </ul>
-        </nav>
+        <ul>
+          <li><button class="button secondary">Усі</button></li>
+          <li><button class="button secondary">Веб-сайти</button></li>
+          <li><button class="button secondary">Додатки</button></li>
+          <li><button class="button secondary">Дизайн</button></li>
+          <li><button class="button secondary">Маркетинг</button></li>
+        </ul>
         <ul>
           <li>
             <img src="./images/technocrack.jpg" alt="technocrack" width="370" height="294" />
@@ -108,15 +111,19 @@
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
-      <!--Контакти-->
-      <address>
-        <p>
-          м. Київ, пр-т Лесі Українки, 26 <br />
-          info@devstudio.com <br />
-          +38 096 111 11 11
-        </p>
-      </address>
+      <div class="footer">
+        <a href="" class="logo">
+          <span class="logo-first">Web</span><span class="logo-third">Studio</span>
+        </a>
+        <!--Контакти-->
+        <address>
+          <p>
+            <span class="contacts-address">м. Київ, пр-т Лесі Українки, 26</span><br />
+            <span class="contacts-connect">info@devstudio.com</span><br />
+            <span class="contacts-connect">+38 096 111 11 11</span>
+          </p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

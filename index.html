@@ -12,16 +12,18 @@
     <!--Шапка сайту-->
     <header class="header">
       <nav>
-        <a href="" class="logo">WebStudio</a>
+        <a href="" class="logo">
+          <span class="logo-first">Web</span><span class="logo-second">Studio</span>
+        </a>
         <ul class="site-nav list">
-          <li><a href="Студія">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="Контакти">Контакти</a></li>
+          <li><a href="Студія" class="link current">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="Контакти" class="link">Контакти</a></li>
         </ul>
       </nav>
       <ul class="auth-nav list">
-        <a href="info@devstudio.com" class="link">info@devstudio.com</a>
-        <a href="+380961111111" class="link">+38 096 111 11 11</a>
+        <li><a href="info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li><a href="+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -31,36 +33,34 @@
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button>Замовити послугу</button>
+        <button class="button">Замовити послугу</button>
       </section>
 
       <!--Особливості-->
       <section class="section">
         <h2 class="section-title">Особливості</h2>
-        <ul class="main-features list">
+        <ul class="features-list">
           <li>
-            <a href="">
-              <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </a>
+            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text">
+              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+            </p>
           </li>
           <li>
-            <a href="">
-              <h3>ПУНКТУАЛЬНІСТЬ</h3>
-              <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-            </a>
+            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+            </p>
           </li>
           <li>
-            <a href="">
-              <h3>ПЛАНУВАННЯ</h3>
-              <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-            </a>
+            <h3 class="title">ПЛАНУВАННЯ</h3>
+            <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
           <li>
-            <a href="">
-              <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            </a>
+            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text">
+              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            </p>
           </li>
         </ul>
       </section>
@@ -68,7 +68,7 @@
       <!--Чим ми займаємося-->
       <section class="section">
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul>
+        <ul class="work list">
           <li>
             <img src="./images/box1.jpg" alt="Людина за комп'ютером" width="370" height="294" />
           </li>
@@ -82,9 +82,9 @@
       </section>
 
       <!--Наша команда-->
-      <section class="section">
+      <section class="section command">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
+        <ul class="command-list">
           <li>
             <img
               src="./images/productdesigner.jpg"
@@ -92,8 +92,8 @@
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <span>Product Designer</span>
+            <h3 class="title">Ігор Дем'яненко</h3>
+            <span class="post">Product Designer</span>
           </li>
           <li>
             <img
@@ -102,33 +102,37 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <span>Frontend Developer</span>
+            <h3 class="title">Ольга Рєпіна</h3>
+            <span class="post">Frontend Developer</span>
           </li>
           <li>
             <img src="./images/marketing.jpg" alt="Marketing" width="270" height="260" />
-            <h3>Микола Тарасов</h3>
-            <span>Marketing</span>
+            <h3 class="title">Микола Тарасов</h3>
+            <span class="post">Marketing</span>
           </li>
           <li>
             <img src="./images/uidesigner.jpg" alt="UI Designer" width="270" height="260" />
-            <h3>Михайло Єрмаков</h3>
-            <span>UI Designer</span>
+            <h3 class="title">Михайло Єрмаков</h3>
+            <span class="post">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
-      <!--Контакти-->
-      <address>
-        <p>
-          м. Київ, пр-т Лесі Українки, 26 <br />
-          info@devstudio.com <br />
-          +38 096 111 11 11
-        </p>
-      </address>
+      <div class="footer">
+        <a href="" class="logo">
+          <span class="logo-first">Web</span><span class="logo-third">Studio</span>
+        </a>
+        <!--Контакти-->
+        <address class="contacts">
+          <p>
+            <span class="contacts-address">м. Київ, пр-т Лесі Українки, 26</span><br />
+            <span class="contacts-connect">info@devstudio.com</span><br />
+            <span class="contacts-connect">+38 096 111 11 11</span>
+          </p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

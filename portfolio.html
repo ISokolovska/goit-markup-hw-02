@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Шапка сайту-->
@@ -29,11 +33,11 @@
       <section>
         <h2>Портфоліо</h2>
         <ul>
-          <li><button class="button secondary">Усі</button></li>
-          <li><button class="button secondary">Веб-сайти</button></li>
-          <li><button class="button secondary">Додатки</button></li>
-          <li><button class="button secondary">Дизайн</button></li>
-          <li><button class="button secondary">Маркетинг</button></li>
+          <li><button type="button" class="button secondary">Усі</button></li>
+          <li><button type="button" class="button secondary">Веб-сайти</button></li>
+          <li><button type="button" class="button secondary">Додатки</button></li>
+          <li><button type="button" class="button secondary">Дизайн</button></li>
+          <li><button type="button" class="button secondary">Маркетинг</button></li>
         </ul>
         <ul>
           <li>
@@ -117,11 +121,19 @@
         </a>
         <!--Контакти-->
         <address>
-          <p>
-            <span class="contacts-address">м. Київ, пр-т Лесі Українки, 26</span><br />
-            <span class="contacts-connect">info@devstudio.com</span><br />
-            <span class="contacts-connect">+38 096 111 11 11</span>
-          </p>
+          <ul class="list">
+            <li>
+              <a
+                href="https://goo.gl/maps/4yeFiKxMRU1gBtnu8"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="address list"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li><a href="" class="connect">info@devstudio.com</a></li>
+            <li><a href="" class="connect">+38 096 111 11 11</a></li>
+          </ul>
         </address>
       </div>
     </footer>

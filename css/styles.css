@@ -22,6 +22,7 @@
 body {
     background-color: var(--button-text-color);
     color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -66,13 +67,14 @@ body {
 /* Hero */
 
 .hero {
-    color: var(--button-text-color);
     background-color: var(--bcg-hero-color);
+    color: var(--button-text-color);
 }
 
-.button {
-    color: var(--button-text-color);
+.button {  
     background-color: var(--accent-color);
+    color: var(--button-text-color);
+    cursor: pointer;
 }
 
 /* Section */
@@ -94,7 +96,7 @@ body {
 /* Command */
 
 .command {
-background-color: var(--bcg-button-color);
+    background-color: var(--bcg-button-color);
 }
 
 .command-list .title {
@@ -111,19 +113,19 @@ background-color: var(--bcg-button-color);
     background-color: var(--bcg-hero-color);
 }
 
-.contacts-address {
+.footer .address {
     color: var(--button-text-color);
 }
 
-.contacts-connect {
+.footer .connect {
     color: var(--tertiary-text-color);
 }
 
 /* Portfolio */
 
 .button.secondary {
-    color: var(--primary-text-color);
     background-color: var(--bcg-button-color);
+    color: var(--primary-text-color);
 }
 
 

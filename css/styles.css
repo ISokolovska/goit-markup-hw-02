@@ -22,14 +22,9 @@ body {
     background-color: var(--button-text-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 0.03em;
-}
-
-span {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 .list {
@@ -39,6 +34,10 @@ span {
 /* Site nav */
 
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     text-decoration: none;
 }
 
@@ -89,6 +88,9 @@ span {
 
 .hero {
     background-color: var(--bcg-hero-color);
+}
+
+.hero-title {
     color: var(--button-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -128,6 +130,7 @@ span {
 .button .button.secondary:hover,
 .button .button.secondary:focus {
     background-color: var(--accent-color);
+    color: var(--button-text-color);
 }
 
 /* Section */
@@ -194,12 +197,22 @@ span {
 
 }
 
+.footer .address:hover,
+.footer .address:hover {
+    color: var(--accent-color);
+}
+
 .footer .connect {
     color: var(--tertiary-text-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+}
+
+.footer .connect:hover,
+.footer .connect:focus {
+    color: var(--accent-color);
 }
 
 /* Portfolio */
